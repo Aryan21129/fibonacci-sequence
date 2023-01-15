@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+// this will hollow square pattern
+int main()
+{ // for row
+    for (int a = 1; a <= 5; a++)
+    { // for column
+        for (int b = 1; b <= 5; b++)
+        {
+            if (a == 1 || a == 5 || b == 1 || b == 5) // this will only make star only
+            {                                         // first & fifth row and column
+                printf("*");
+            }
+            else
+            {
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
+}
