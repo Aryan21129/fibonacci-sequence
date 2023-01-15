@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+// this is 5 by 5 square pattern
+int main()
+{ // for rows
+    for (int a = 1; a <= 5; a++)
+    { // for column
+        for (int b = 1; b <= 5; b++)
+        {
+            printf("*");
+        }
+        printf("\n"); // to make star to move to next line
+    }
+}
